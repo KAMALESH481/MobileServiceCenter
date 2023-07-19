@@ -1,0 +1,59 @@
+.book-appointment {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-left: 500px;
+    margin-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  
+  .book-appointment h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .book-appointment label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .book-appointment input,
+  .book-appointment textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    margin-bottom: 16px;
+  }
+  
+  .book-appointment button {
+    background-color:blue;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-appointment button:hover {
+    background-color:powderblue;
+  }
+  
+  .book-appointment .success-message {
+    color: green;
+    margin-bottom: 16px;
+  }
+  
+  .book-appointment .error-message {
+    color: red;
+    margin-bottom: 16px;
+  }

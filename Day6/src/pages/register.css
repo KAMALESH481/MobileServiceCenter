@@ -1,0 +1,131 @@
+.login-container{
+  background-image: url('./wall.jpg');
+  /* background-position: right; */
+  background-size: cover;
+  width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .log{
+    background-image: url('./wall.jpg');
+    /* background-position: right; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  input[type=submit]:hover
+  {
+    opacity: 1;
+    background-color: gray;
+    border-radius: 10px;
+    padding:12px ;
+    margin :2.5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .register{
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 45px 45px 45px 100px;
+  border-radius: 5px;
+  float: right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 16px;
+  color: #333333;
+  background-color: grey;
+  background-size: cover;
+  font-size: 18px;
+  margin-left: 1000px;
+  margin-top: 0cm;
+  margin-right: 10cm;
+  margin-bottom: 5cm; 
+}
+.login{
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 45px 45px 45px 100px;
+  border-radius: 5px;
+  float: right;
+  line-height: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333333;
+  background-color: grey;
+  background-size: cover;
+  font-size: 18px;
+  margin-left: 100x;
+  margin-top: 2cm;
+  margin-right: 10cm;
+  margin-bottom: 5cm; 
+}
+
+form input {
+
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+}
+
+
+.button {
+  background-color: #00bfff;
+  border-color: #3ac162;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+
+.sucessMsg {
+  color: #6b8e23;
+  margin-bottom: 10px;
+} 
+
+* body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.POST
+{
+    background-color: white;
+    border-radius: 5px;
+    width: 550px;
+    margin: 20px auto;
+    
+    /* height: 600px; */
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.book-appointment button:hover {
+  background-color: #45a049;
+}
+
+.log .success-message {
+  color: green;
+  margin-bottom: 16px;
+}
+.log .error-message {
+  color: red;
+  margin-bottom: 16px;
+}
+.register .success-message {
+  color: green;
+  margin-bottom: 16px;
+}
+.register .error-message {
+  color: red;
+  margin-bottom: 16px;
+}
