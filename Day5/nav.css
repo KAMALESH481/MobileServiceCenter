@@ -1,0 +1,118 @@
+nav{
+  display:flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  background:black;
+  /* background-size: cover; */
+  /* padding: 10px 80px; */
+  box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+  width: 100vw;
+  height: 110px;
+
+  
+}
+fa{
+  align-items: center;
+
+}
+
+body
+{
+  background-image: url("wall.jpg");
+  background-size: cover;
+  position: fixed;
+}
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+.jojo li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+  
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: aliceblue;
+    transition: 0.3 ease-in-out;
+}
+.jojo li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: aliceblue;
+    transition: 0.3 ease-in-out;
+}
+#navbar li a:hover{
+    color: red;
+}
+.jojo li a:hover{
+    color: red;
+}
+#navbar li a:hover::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: cadetblue;
+  position:absolute;
+  bottom: -4px;
+  left: 20px;
+
+}
+.jojo li a:hover::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: cadetblue;
+  position:absolute;
+  bottom: -4px;
+  left: 20px;
+
+}
+
+#mobile i{
+  color :aliceblue;
+  align-items: center;
+
+}
+#mobile {
+  display: block;
+
+}
+.jojo{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width:769px){}
+#navbar{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  top: 90px;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: black;
+  box-shadow: rgba(red, green, blue, alpha);
+  padding: 40px 0 0 10px;
+} 
+#navbar.active{
+  right:0px;
+}
+#navbar li{
+  margin-bottom: 25px;
+}
+#mobile i{
+  font-size: 24px;
+  cursor: pointer;
+}
