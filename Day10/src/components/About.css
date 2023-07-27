@@ -1,0 +1,79 @@
+
+.about{
+        width: 300px;
+        border: 1px solid #d6d7da;
+        border-radius: 15px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        line-height: 15px;
+        color: #333333;
+        background-color: grey;
+        background-size: cover;
+        float: right;
+        padding: 45px 45px 45px 45px;
+        margin-left: 600px;
+      }
+      .contact{
+        width: 300px;
+        border: 1px solid grey;
+        padding: 45px 45px 45px 45px;
+        border-radius: 5px;
+        float: right;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 16px;
+        color: #333333;
+        background-color:grey;
+        background-size: cover;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: 700px;
+
+}
+.terms{
+        width: 300px;
+        border: 1px solid #d6d7da;
+        padding: 0px 45px 45px 0px;
+        border-radius: 5px;
+        float: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 16px;
+        color: #333333;
+        background-color: grey;
+        background-size: cover;
+        font-size: 15px;
+        margin-top: 2cm;
+        margin-right: 400px;
+        margin-bottom: 30px; 
+      }
+      h2{
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        float: right;
+      }
+      
+      h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .checkbox-label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .checkbox-label input {
+        margin-right: 10px;
+      }
+      
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007bff;
+        color: #fff;
+      }
+
+
